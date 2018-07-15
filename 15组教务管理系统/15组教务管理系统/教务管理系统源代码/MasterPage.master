@@ -1,0 +1,26 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+<head runat="server">
+    <meta charset="utf-8">
+    <title>欢迎使用学生成绩管理系统</title>
+    <link rel="stylesheet" href="./style/css/bootstrap.min.css" >
+    <link rel="stylesheet" href="./style/css/jwxt.css" >
+</head>
+<body style="text-align:center"">              
+    <form class="form-horizontal" id="form1" runat="server">
+        <div class="topbg">
+            <div>
+                &nbsp;<div>
+                    <img src="https://timgsa.baidu.com/timg?image&amp;quality=80&amp;size=b9999_10000&amp;sec=1531197457956&amp;di=79d4be0a84800d057c18eafa695982ef&amp;imgtype=jpg&amp;src=http%3A%2F%2Fimg0.imgtn.bdimg.com%2Fit%2Fu%3D244606305%2C928616257%26fm%3D214%26gp%3D0.jpg" />
+                </div>
+            </div>
+&nbsp;</div>
+        <div >
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+            <div class="footer">
+                &nbsp;</div>
+        </div>
+    </form>
+</body>
+</html>
